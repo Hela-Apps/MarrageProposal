@@ -1,4 +1,4 @@
-# Marrage Proporal
+# Marrage Proposal
 
 Prerequisites
 
