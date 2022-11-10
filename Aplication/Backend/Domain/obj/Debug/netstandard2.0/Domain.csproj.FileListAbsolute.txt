@@ -12,3 +12,18 @@ D:\NuxtWebApp\car_classified_ads\Application\BackEnd\Domain\obj\Debug\netstandar
 D:\NuxtWebApp\car_classified_ads\Application\BackEnd\Domain\obj\Debug\netstandard2.0\Domain.csproj.CopyComplete
 D:\NuxtWebApp\car_classified_ads\Application\BackEnd\Domain\obj\Debug\netstandard2.0\Domain.dll
 D:\NuxtWebApp\car_classified_ads\Application\BackEnd\Domain\obj\Debug\netstandard2.0\Domain.pdb
+D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Domain\bin\Debug\netstandard2.0\Domain.dll
+D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Domain\bin\Debug\netstandard2.0\Domain.pdb
+D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Domain\bin\Debug\netstandard2.0\Entity.dll
+D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Domain\bin\Debug\netstandard2.0\Repository.dll
+D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Domain\bin\Debug\netstandard2.0\Entity.pdb
+D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Domain\bin\Debug\netstandard2.0\Repository.pdb
+D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Domain\obj\Debug\netstandard2.0\Domain.csproj.AssemblyReference.cache
+D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Domain\obj\Debug\netstandard2.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Domain\obj\Debug\netstandard2.0\Domain.csproj.CopyComplete
+D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Domain\obj\Debug\netstandard2.0\Domain.dll
+D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Domain\obj\Debug\netstandard2.0\Domain.pdb
