@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SmartERP.Domain.Models
+namespace Entity.Models
 {
     public class LoginModel
     {

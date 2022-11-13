@@ -7,13 +7,13 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using SmartERP.Domain.Models;
+using WebAPI.Controllers;
 
-namespace SmartERP.API.Controllers
+namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UserProfileController : ControllerBase
+    public class UserProfileController : ApiController
     {
         private UserManager<ApplicationUser> _userManager;
 
@@ -23,7 +23,6 @@ namespace SmartERP.API.Controllers
         }
 
         [HttpGet]
-        [Authorize]
         [Route("GetUserProfile")]
         // GET:api/UserProfile
         public async Task<Object> GetUserProfile()

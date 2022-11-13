@@ -1,4 +1,3 @@
-using SmartERP.Repository;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -13,15 +12,14 @@ using Microsoft.OpenApi.Models;
 using System;
 using System.Text;
 using Entity.Context;
-using SmartERP.Repository.Implementation;
-using SmartERP.Repository.Interfaces;
+using Repository.Implementation;
+using Repository.Interfaces;
 using AutoMapper;
 using Entity.Models;
-using Repository.Interfaces;
-using Repository.Implementation;
 using Domain.CommonDomain;
+using Entity.Mappings;
 
-namespace SmartERP.API
+namespace WebApi
 {
     public class Startup
     {
@@ -39,6 +37,15 @@ namespace SmartERP.API
             services.AddAutoMapper(typeof(Startup));
             services.AddControllers();
 
+            // Auto Mapper Configurations
+            var mapperConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new MappingProfile());
+            });
+
+            IMapper mapper = mapperConfig.CreateMapper();
+            services.AddSingleton(mapper);
+
             services.AddCors(options =>
             {
                 options.AddPolicy(MyAllowSpecificOrigins,
@@ -50,18 +57,14 @@ namespace SmartERP.API
                 });
             });
 
-            services.AddTransient<IVehicleConditionRepository, VehicleConditionRepository>();
-            services.AddTransient<IVehicleCategoryRepository, VehicleCategoryRepository>();
-            services.AddTransient<IVehicleCompanyRepository, VehicleCompanyRepository>();
-            services.AddTransient<ICityRepository, CityRepository>();
-            services.AddTransient<IManuFacturedYearRepository, ManuFacturedYearRepository>();
+            services.AddScoped<ICityRepository, CityRepository>();
             services.AddScoped(typeof(IAsyncRepository<>), typeof(EfRepository<>));
 
-            services.AddTransient<IDistrictRepository, DistrictRepository>();
-            services.AddTransient<ICommonService, CommonService>();
+            services.AddScoped<IDistrictRepository, DistrictRepository>();
+            services.AddScoped<ICommonService, CommonService>();
 
             services.AddDbContext<SmartDbContext>(options =>
-           options.UseSqlServer(Configuration.GetConnectionString("carDbConnect")));
+           options.UseSqlServer(Configuration.GetConnectionString("ProposalConnect")));
 
             //inject Appsettings
             services.Configure<ApplicationSettings>(Configuration.GetSection("ApplicationSettings"));
@@ -91,7 +94,7 @@ namespace SmartERP.API
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
             services.AddDbContext<AthenticationContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("carDbConnect")));
+            options.UseSqlServer(Configuration.GetConnectionString("ProposalConnect")));
 
             services.AddDefaultIdentity<ApplicationUser>().AddEntityFrameworkStores<AthenticationContext>();
             services.Configure<IdentityOptions>(options =>
@@ -107,7 +110,7 @@ namespace SmartERP.API
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Logistic ERP API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Marrage Proposal API", Version = "v1" });
             });
         }
 
@@ -121,7 +124,7 @@ namespace SmartERP.API
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Logistic ERP API");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Marrage Proposal API");
             });
             app.UseHttpsRedirection();
 

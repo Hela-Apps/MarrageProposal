@@ -1,10 +1,6 @@
 ﻿using Entity.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using SmartERP.Domain.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Entity.Context
 {

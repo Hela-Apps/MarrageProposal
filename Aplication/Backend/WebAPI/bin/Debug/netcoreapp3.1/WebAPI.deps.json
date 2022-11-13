@@ -31,7 +31,8 @@
     ".NETCoreApp,Version=v3.1": {
       "WebAPI/1.0.0": {
         "dependencies": {
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.0",
+          "AutoMapper": "10.0.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.0",
           "Domain": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.6",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.0.0",
@@ -312,7 +313,7 @@
           "WebAPI.dll": {}
         }
       },
-      "AutoMapper/10.1.0": {
+      "AutoMapper/10.0.0": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "System.Reflection.Emit": "4.7.0"
@@ -320,23 +321,23 @@
         "runtime": {
           "lib/netstandard2.0/AutoMapper.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.1.0.0"
+            "fileVersion": "10.0.0.0"
           }
         },
         "compile": {
           "lib/netstandard2.0/AutoMapper.dll": {}
         }
       },
-      "AutoMapper.Extensions.Microsoft.DependencyInjection/8.1.0": {
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/8.0.0": {
         "dependencies": {
-          "AutoMapper": "10.1.0",
+          "AutoMapper": "10.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6",
           "Microsoft.Extensions.Options": "3.1.6"
         },
         "runtime": {
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.1.0.0"
+            "fileVersion": "8.0.0.0"
           }
         },
         "compile": {
@@ -1546,7 +1547,8 @@
       },
       "Domain/1.0.0": {
         "dependencies": {
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.0",
+          "AutoMapper": "10.0.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.0",
           "Entity": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.0.0",
           "Newtonsoft.Json": "12.0.3",
@@ -1561,6 +1563,7 @@
       },
       "Entity/1.0.0": {
         "dependencies": {
+          "AutoMapper": "10.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.6"
         },
@@ -3170,19 +3173,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AutoMapper/10.1.0": {
+    "AutoMapper/10.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qxn9+PpQJD53PAUHGXW3HTcq6Rxbv3Pyq/jTcc60ZYwOygyqUfHIY3HBChKbDwtTHdlwlQqJeJ1ckVcaoytxxw==",
-      "path": "automapper/10.1.0",
-      "hashPath": "automapper.10.1.0.nupkg.sha512"
+      "sha512": "sha512-T09NoqMZBqw0/JEauXulxnmmerl0Zj03e0r6VCcJ0LURWBIaYxZPPoiDv8bHf5Y4x2xcXJp4JPXoCaeOMJfHEA==",
+      "path": "automapper/10.0.0",
+      "hashPath": "automapper.10.0.0.nupkg.sha512"
     },
-    "AutoMapper.Extensions.Microsoft.DependencyInjection/8.1.0": {
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dQyGCAYcHbGuimVvCMu4Ea2S1oYOlgO9XfVdClmY5wgygJMZoS57emPzH0qNfknmtzMm4QbDO9i237W5IDjU1A==",
-      "path": "automapper.extensions.microsoft.dependencyinjection/8.1.0",
-      "hashPath": "automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512"
+      "sha512": "sha512-Hkb6jP4ZrN8oHrQZePFBeFUcf58hBzqoxi2ntG+TC6A3Y/WqwD7hgCwy4PT6Jbj8dLqAd4OSrrCR8WRq0UG5wQ==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/8.0.0",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.8.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.6": {
       "type": "package",

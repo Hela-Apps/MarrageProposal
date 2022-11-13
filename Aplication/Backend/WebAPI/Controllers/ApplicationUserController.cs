@@ -5,28 +5,32 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using SmartERP.Domain.Models;
-using SmartERP.Repository;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Entity.Context;
 using Entity.Models;
+using Entity.ViewModel;
+using AutoMapper;
+using WebAPI.Controllers;
+using Microsoft.AspNetCore.Authorization;
 
-namespace SmartERP.API.Controllers
+namespace API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/ApplicationUsers")]
     [ApiController]
-    public class ApplicationUserController : ControllerBase
+    public class ApplicationUserController : ApiController
     {
         private UserManager<ApplicationUser> _userManager;
         private SignInManager<ApplicationUser> _signInManager;
         private AthenticationContext _AthenticationContext;
         private IOptions<ApplicationSettings> _appSettings;
 
-        public ApplicationUserController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, AthenticationContext athenticationContext, IOptions<ApplicationSettings> appSettings)
+        public ApplicationUserController(UserManager<ApplicationUser> userManager, 
+            SignInManager<ApplicationUser> signInManager, 
+            AthenticationContext athenticationContext, 
+            IOptions<ApplicationSettings> appSettings)
         {
             _userManager = userManager;
             _signInManager = signInManager;
@@ -35,20 +39,15 @@ namespace SmartERP.API.Controllers
         }
 
         [HttpPost]
+        [AllowAnonymous]
         [Route("Register")]
         //POST : /api/ApplicationUser/Register
-        public async Task<Object> PostApplicationUser(ApplicationUserModel userModel)
+        public async Task<ActionResult> PostApplicationUser([FromBody]ApplicationUserViewModel userModel)
         {
-            var applicationUser = new ApplicationUser()
-            {
-                Email = userModel.Email,
-                FullName = userModel.FullName,
-                UserName = userModel.UserName,
-                PhoneNumber = userModel.PhoneNumber,
-                CityId = userModel.CityId
-            };
+            
             try
             {
+                var applicationUser =Mapper.Map<ApplicationUser>(userModel);
                 var result = await _userManager.CreateAsync(applicationUser, userModel.Password);
                 return Ok(result);
             }
