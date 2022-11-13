@@ -10,16 +10,3 @@ D:\NuxtWebApp\car_classified_ads\Application\BackEnd\Repository\obj\Debug\netsta
 D:\NuxtWebApp\car_classified_ads\Application\BackEnd\Repository\obj\Debug\netstandard2.0\Repository.csproj.CopyComplete
 D:\NuxtWebApp\car_classified_ads\Application\BackEnd\Repository\obj\Debug\netstandard2.0\Repository.dll
 D:\NuxtWebApp\car_classified_ads\Application\BackEnd\Repository\obj\Debug\netstandard2.0\Repository.pdb
-D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Repository\bin\Debug\netstandard2.0\Repository.deps.json
-D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Repository\bin\Debug\netstandard2.0\Repository.dll
-D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Repository\bin\Debug\netstandard2.0\Repository.pdb
-D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Repository\bin\Debug\netstandard2.0\Entity.dll
-D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Repository\bin\Debug\netstandard2.0\Entity.pdb
-D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Repository\obj\Debug\netstandard2.0\Repository.csproj.AssemblyReference.cache
-D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Repository\obj\Debug\netstandard2.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
-D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Repository\obj\Debug\netstandard2.0\Repository.AssemblyInfoInputs.cache
-D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Repository\obj\Debug\netstandard2.0\Repository.AssemblyInfo.cs
-D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Repository\obj\Debug\netstandard2.0\Repository.csproj.CoreCompileInputs.cache
-D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Repository\obj\Debug\netstandard2.0\Repository.csproj.CopyComplete
-D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Repository\obj\Debug\netstandard2.0\Repository.dll
-D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Repository\obj\Debug\netstandard2.0\Repository.pdb

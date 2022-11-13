@@ -10,10 +10,10 @@ D:\NuxtWebApp\car_classified_ads\Application\BackEnd\Entity\obj\Debug\netstandar
 D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Entity\bin\Debug\netstandard2.0\Entity.deps.json
 D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Entity\bin\Debug\netstandard2.0\Entity.dll
 D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Entity\bin\Debug\netstandard2.0\Entity.pdb
-D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Entity\obj\Debug\netstandard2.0\Entity.csproj.AssemblyReference.cache
 D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Entity\obj\Debug\netstandard2.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
 D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Entity\obj\Debug\netstandard2.0\Entity.AssemblyInfoInputs.cache
 D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Entity\obj\Debug\netstandard2.0\Entity.AssemblyInfo.cs
 D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Entity\obj\Debug\netstandard2.0\Entity.csproj.CoreCompileInputs.cache
 D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Entity\obj\Debug\netstandard2.0\Entity.dll
 D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Entity\obj\Debug\netstandard2.0\Entity.pdb
+D:\My practice\gitHub\MarrageProposal\Aplication\Backend\Entity\obj\Debug\netstandard2.0\Entity.csproj.AssemblyReference.cache

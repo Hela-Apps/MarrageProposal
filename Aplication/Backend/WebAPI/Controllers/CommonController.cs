@@ -11,7 +11,7 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CommonController : ControllerBase
+    public class CommonController : ApiController
     {
         private readonly ICommonService _commonService;
         public CommonController(ICommonService commonService)
@@ -19,50 +19,7 @@ namespace WebAPI.Controllers
             _commonService = commonService;
         }
 
-        [HttpGet]
-        [Route("GetAllCompanies")]
-        public async Task<IActionResult> GetAllCompanies()
-                {
-            try
-            {
-                return Ok(await _commonService.GetAllcompanies());
-            }
-            catch (Exception ex)
-            {
-                throw ex.InnerException;
-            }
-
-        }
-
-        [HttpGet]
-        [Route("GetAllCategories")]
-        public async Task<IActionResult> GetAllCategories()
-        {
-            try
-            {
-                return Ok(await _commonService.GetAllCategories());
-            }
-            catch (Exception ex)
-            {
-                throw ex.InnerException;
-            }
-
-        }
-
-        [HttpGet]
-        [Route("GetAllConditions")]
-        public async Task<IActionResult> GetAllConditions()
-        {
-            try
-            {
-                return Ok(await _commonService.GetAllConditions());
-            }
-            catch (Exception ex)
-            {
-                throw ex.InnerException;
-            }
-
-        }
+        
 
         [HttpGet]
         [Route("GetAllDistricts")]
@@ -93,20 +50,6 @@ namespace WebAPI.Controllers
             }
 
         }
-
-        [HttpGet]
-        [Route("GetAllManuFacturedYear")]
-        public async Task<IActionResult> GetAllManuFacturedYear()
-        {
-            try
-            {
-                return Ok(await _commonService.GetAllYears());
-            }
-            catch (Exception ex)
-            {
-                throw ex.InnerException;
-            }
-
-        }
+       
     }
 }

@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Entity.Mappings;
+using Entity.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SmartERP.Domain.Models
+namespace Entity.ViewModel
 {
-    public class ApplicationUserModel
+    public class ApplicationUserViewModel: IMapBoth<ApplicationUser>
     {
         public string UserName { get; set; }
         public string Password { get; set; }

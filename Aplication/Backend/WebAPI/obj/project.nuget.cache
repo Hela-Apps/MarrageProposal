@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+bekI4+CpD5vCb6aYr2gwEVDqEPXG4Jw97Xa2cpf7hAqGJhjrlwmBs/NoMIHdhkGALW9Pftpg2S/Sxw2T1r+2Q==",
+  "dgSpecHash": "OfInoXVKuSx2jTqPIWXBCmNCpRrLGdnA5jN+njQhJsp3bcA7IoZn7ApvZlPIZznptx1eJIm3R3JxE7psQ9ijdg==",
   "success": true,
   "projectFilePath": "D:\\My practice\\gitHub\\MarrageProposal\\Aplication\\Backend\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ChamathVidurangaBIST\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
-    "C:\\Users\\ChamathVidurangaBIST\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
+    "C:\\Users\\ChamathVidurangaBIST\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\ChamathVidurangaBIST\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.0\\automapper.extensions.microsoft.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\ChamathVidurangaBIST\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.6\\microsoft.aspnetcore.authentication.jwtbearer.3.1.6.nupkg.sha512",
     "C:\\Users\\ChamathVidurangaBIST\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.6\\microsoft.aspnetcore.cryptography.internal.3.1.6.nupkg.sha512",
     "C:\\Users\\ChamathVidurangaBIST\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.6\\microsoft.aspnetcore.cryptography.keyderivation.3.1.6.nupkg.sha512",

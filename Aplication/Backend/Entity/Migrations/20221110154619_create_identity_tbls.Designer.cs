@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Entity.Migrations
 {
     [DbContext(typeof(AthenticationContext))]
-    [Migration("20211008181855_add cityId")]
-    partial class addcityId
+    [Migration("20221110154619_create_identity_tbls")]
+    partial class create_identity_tbls
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
